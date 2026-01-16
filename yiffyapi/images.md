@@ -77,6 +77,8 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 ```
 :::
 
+<hr>
+
 ## Get Image
 > <code><span style="color: rgb(52, 141, 248);">GET</span></code> `https://v2.yiff.rest/images/{id}`
 
