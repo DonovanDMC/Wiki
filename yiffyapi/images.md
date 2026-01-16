@@ -131,7 +131,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 ```
 :::
 
-[^1]: In most cases the md5 of the image will also work. For internally hosted images, the id and md5 will always be the same. For externally hosted images, they will be different.
+[^1]: In most cases the md5 of the image will also work. For internally hosted images, the id and md5 will always be the same. For externally hosted images, they will be different. Regardless using the md5 of external images should work all the same.
 
 <hr>
 
