@@ -9,7 +9,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 
 ::: success
 # 200 OK: Success
-```
+```json
 {
   "success": true,
   "uptime": 0
@@ -24,7 +24,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 
 ::: success
 # 200 OK: Success
-```
+```json
 {
   "success": true,
   "data": [
@@ -53,7 +53,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 
 ::: success
 # 200 OK: Success
-```
+```json
 {
   "success": true,
   "data": {
@@ -68,7 +68,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 
 ::: danger
 # 404 Not Found: Not Found
-```
+```json
 {
   "success": false,
   "code": 1030,
@@ -89,7 +89,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 
 ::: success
 # 200 OK: Success
-```
+```json
 {
   "success": true,
   "data": {
@@ -113,7 +113,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
     "shortURL": "https://yiff.rocks/3552ab3a5ae34c69a58852ef0a1c02f9",
     "external": true,
     "viewable": true,
-    "seen: 0,
+    "seen": 0,
     "category": "furry.cuddle"
   }
 }
@@ -122,7 +122,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 
 ::: danger
 # 404 Not Found: Not Found
-```
+```json
 {
   "success": false,
   "code": 1040,
@@ -156,7 +156,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 
 ::: success
 # 200 OK: Success
-```
+```json
 {
   "$schema": "https://schema.yiff.rest/V2.json",
   "images": [
@@ -181,7 +181,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
       "shortURL": "https://yiff.rocks/3552ab3a5ae34c69a58852ef0a1c02f9",
       "external": true,
       "viewable": true,
-      "seen: 0,
+      "seen": 0,
       "category": "furry.cuddle"
     }
   ],
@@ -214,7 +214,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 
 ::: danger
 # 400 Bad Request: Amount < 1
-```
+```json
 {
   "success": false,
   "code": 1051,
@@ -225,7 +225,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 
 ::: danger
 # 400 Bad Request: Amount > 5
-```
+```json
 {
   "success": false,
   "code": 1052,
@@ -236,7 +236,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 
 ::: danger
 # 400 Bad Request: No Results Found
-```
+```json
 {
   "success": false,
   "code": 1041,
@@ -247,7 +247,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 
 ::: danger
 # 404 Not Found: Category Not Found
-```
+```json
 {
   "success": false,
   "code": 1030,
@@ -282,7 +282,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 
 ::: success
 # 200 OK: Success
-```
+```json
 {
   "success": true,
   "data": {
@@ -308,7 +308,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
         "shortURL": "https://yiff.rocks/3552ab3a5ae34c69a58852ef0a1c02f9",
         "external": true,
         "viewable": true,
-        "seen: 0,
+        "seen": 0,
         "category": "furry.cuddle"
       }
     ]
@@ -319,7 +319,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 
 ::: danger
 # 400 Bad Request: Invalid Body
-```
+```json
 {
   "success": false,
   "code": 1054,
@@ -330,7 +330,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 
 ::: danger
 # 400 Bad Request: Invalid Category
-```
+```json
 {
   "success": false,
   "code": 1030,
@@ -341,7 +341,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 
 ::: danger
 # 400 Bad Request: Too Many Images Requested
-```
+```json
 {
   "success": false,
   "code": 1056,
