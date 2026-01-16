@@ -1,7 +1,7 @@
 # Error Codes
 
 > [!TIP]
-> Any lines in red are no longer in use. Currently there are no plans to reuse codes.
+> Lines in red are no longer in use. There are currently no plans to reuse codes.
 
 <hr>
 
