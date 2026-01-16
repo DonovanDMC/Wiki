@@ -151,7 +151,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 | --------- | ------- | -------------------------------------------------------------------------------------- |
 | amount    | Number  | The amount of images to request, between 1-5.                                          |
 | notes     | Boolean | If notes should be hidden.                                                             |
-| sizeLimit | Number  | The maximum size of images to return, in powers of 2. Units such as KB/MB can be used. |
+| sizeLimit | String  | The maximum size of images to return, in powers of 2. Units such as KB/MB can be used. |
 :::
 
 ::: success
@@ -270,7 +270,7 @@ An [[API Key|YiffyAPI/APIKey]] is <span style="color: red;">not</span> required 
 # Query Parameters
 | Name      | Type    | Description                                                                            |
 | --------- | ------- | -------------------------------------------------------------------------------------- |
-| sizeLimit | Number  | The maximum size of images to return, in powers of 2. Units such as KB/MB can be used. |
+| sizeLimit | String  | The maximum size of images to return, in powers of 2. Units such as KB/MB can be used. |
 :::
 
 ::: none
