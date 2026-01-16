@@ -214,7 +214,7 @@ Unknown short url code.
 | Name                                                              | Type   | Description                                                  |
 | ----------------------------------------------------------------- | ------ | ------------------------------------------------------------ |
 | managementCode <span style="color: red" title="required">*</span> | String | The management code you received when creating the shorturl. |
-::
+:::
 
 ::: success
 # 204 No Content: Success
@@ -278,7 +278,7 @@ Unknown short url code.
 | ----------------------------------------------------------------- | ------ | ----------------------------------------------------------------------------------------- |
 | managementCode <span style="color: red" title="required">*</span> | String | The management code you received when creating the shorturl.                              |
 | credit                                                            | String | The name to credit, defaults to the discord name of the user associated with the api key. |
-| url <span style="color: red" title="required">*</span>            | String | The URL to shorten                                                                        |
+| url                                                               | String | The URL to shorten                                                                        |
 :::
 
 ::: success
