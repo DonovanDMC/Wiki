@@ -140,7 +140,7 @@ Search pools with tags.
           "has_notes": false,
           "duration": null
         },
-      // intended to be used to construct ui elements
+        // intended to be used to construct ui elements
         "data": {
           "html_id": "post_0",
           "html_class": [
