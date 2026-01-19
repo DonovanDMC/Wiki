@@ -11,5 +11,5 @@ You can also find me elsewhere
 * https://x.com/TrashyFur69
 * https://bsky.app/profile/femboy.fan
 * https://t.me/Donovan_DMC
+* Discord [@Donovan_DMC](https://discord.com/users/242843345402069002)
 * https://e621.net/users/323290
-* Discord "@Donovan_DMC":https://discord.com/users/242843345402069002
