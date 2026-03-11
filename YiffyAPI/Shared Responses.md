@@ -99,7 +99,6 @@
 }
  ```
 :::
-:::
 
 ::: danger
 # 429 Too Many Requests: Globally Rate Limited
