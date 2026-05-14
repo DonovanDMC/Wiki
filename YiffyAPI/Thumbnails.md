@@ -18,8 +18,11 @@ An [[API Key|YiffyAPI/APIKey]] <span style="color: red;">is</span> required for 
 {
   "success": true,
   "post_id": 5220880,
-  "gif": null, // will usually be null, gifs can no longer be generated
-  "png": "https://thumbs.yiff.media/922a7bfc2a0a19cb789cbb62c80ccba9.png" // also nullable
+  // all nullable
+  "png": "https://thumbs.yiff.media/922a7bfc2a0a19cb789cbb62c80ccba9.png", 
+  "jpg": "https://thumbs.yiff.media/922a7bfc2a0a19cb789cbb62c80ccba9.jpg",
+  "gif": "https://thumbs.yiff.media/922a7bfc2a0a19cb789cbb62c80ccba9.gif",
+  "webp": "https://thumbs.yiff.media/922a7bfc2a0a19cb789cbb62c80ccba9.webp"
 }
 ```
 :::
@@ -70,7 +73,7 @@ An [[API Key|YiffyAPI/APIKey]] <span style="color: red;">is</span> required for 
 | Name                                                    | Type   | Description                    |
 | ------------------------------------------------------- | ------ | ------------------------------ |
 | id <span style="color: red" title="required">*</span>   | String | The MD5 or ID of an e621 post. |
-| type <span style="color: red" title="required">*</span> | String | `png`                          |
+| type <span style="color: red" title="required">*</span> | String | `png`, `jpg`, `gif`, `webp`    |
 :::
 
 ::: success
@@ -112,12 +115,13 @@ An [[API Key|YiffyAPI/APIKey]] <span style="color: red;">is</span> required for 
 :::
 
 ::: danger
-# 400 Bad Request: GIF Disabled
+# 400 Bad Request: Animated Types Disabled
+During times of high load or low storage, the animated types may be prevented from being generated.
 ```json
 {
   "success": false,
   "code": 1067,
-  "error": "The gif type has been disabled."
+  "error": "The animated types have been disabled."
 }
 ```
 :::
@@ -189,7 +193,7 @@ An [[API Key|YiffyAPI/APIKey]] <span style="color: red;">is</span> required for 
 | Name                                                    | Type   | Description                    |
 | ------------------------------------------------------- | ------ | ------------------------------ |
 | id <span style="color: red" title="required">*</span>   | String | The MD5 or ID of an e621 post. |
-| type <span style="color: red" title="required">*</span> | String | `png`                          |
+| type <span style="color: red" title="required">*</span> | String | `png`, `jpg`, `gif`, `webp`    |
 :::
 
 ::: success
@@ -231,12 +235,13 @@ An [[API Key|YiffyAPI/APIKey]] <span style="color: red;">is</span> required for 
 :::
 
 ::: danger
-# 400 Bad Request: GIF Disabled
+# 400 Bad Request: Animated Types Disabled
+During times of high load or low storage, the animated types may be prevented from being generated.
 ```json
 {
   "success": false,
   "code": 1067,
-  "error": "The gif type has been disabled."
+  "error": "The animated types have been disabled."
 }
 ```
 :::
