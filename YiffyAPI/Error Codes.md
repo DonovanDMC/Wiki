@@ -74,7 +74,7 @@
 |                  1064                 |                  404                  |                        Invalid Type <a id="thumbnails-invalid-type"/>                       |
 |                  1065                 |                  500                  |                             Timeout <a id="thumbnails-timeout"/>                            |
 | <span style="color: red;">1066</span> |  <span style="color: red;">404</span> |  <span style="color: red;">Check Not Found</span>[^5] <a id="thumbnails-check-not-found"/>  |
-|                  1067                 |                  400                  |                        GIF Disabled <a id="thumbnails-gif-disabled"/>                       |
+|                  1067                 |                  400                  |                        Animated Disabled <a id="thumbnails-animated-disabled"/>                       |
 |                  1068                 |                  400                  |                        Post Deleted <a id="thumbnails-post-deleted"/>                       |
 
 [^6]: Replaced with <a href="#global-api-key-required">Global API Key Required</a>
