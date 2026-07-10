@@ -102,3 +102,15 @@
 |                  1081                 |                  422                  |                  URL Too Long <a id="shortener-url-too-long"/>                 |
 
 [^8]: URLs are no longer unique
+
+<hr>
+
+> [!NOTE]
+> The codes below can only be returned in the [[ImageGen|YiffyAPI/ImageGen]] service.<br>
+> The following codes are reserved for this service: 1090-1099
+
+|               Error Code              |              Status Code              |                                Description                                |
+|:-------------------------------------:|:-------------------------------------:|:--------------------------------------------------------------------------:|
+|                  1090                 |                  404                  |                  Endpoint Not Found <a id="image-gen-endpoint-not-found"/>                  |
+|                  1091                 |                  400                  |                       Bad Request <a id="image-gen-bad-request"/>                       |
+|                  1092                 |                  500                  |                    Generation Error <a id="image-gen-generation-error"/>                    |
