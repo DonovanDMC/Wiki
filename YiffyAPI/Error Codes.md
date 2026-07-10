@@ -111,6 +111,6 @@
 
 |               Error Code              |              Status Code              |                                Description                                |
 |:-------------------------------------:|:-------------------------------------:|:--------------------------------------------------------------------------:|
-|                  1090                 |                  404                  |                  Endpoint Not Found <a id="image-gen-endpoint-not-found"/>                  |
-|                  1091                 |                  400                  |                       Bad Request <a id="image-gen-bad-request"/>                       |
-|                  1092                 |                  500                  |                    Generation Error <a id="image-gen-generation-error"/>                    |
+|                  1090                 |                  404                  |                  Endpoint Not Found <a id="imgen-endpoint-not-found"/>                  |
+|                  1091                 |                  400                  |                       Bad Request <a id="imgen-bad-request"/>                       |
+|                  1092                 |                  500                  |                    Generation Error <a id="imgen-generation-error"/>                    |
