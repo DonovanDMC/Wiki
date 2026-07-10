@@ -61,7 +61,7 @@ An [[API Key|YiffyAPI/APIKey]] <span style="color: red;">is</span> required for 
 
 ::: success
 # 200 OK: Success
-<p>The raw generated file is returned, with an appropriate <code>Content-Type</code>. Standard rate limit headers are also present (see [[Shared Responses|YiffyAPI/Shared Responses]]).</p>
+<p>The raw generated file is returned, with an appropriate <code>Content-Type</code>. Standard rate limit headers are also present.</p>
 :::
 
 ::: danger
